@@ -1,0 +1,198 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #006ab3;
+	font-size: 16px;
+	line-height: 1.8em;
+  vertical-align: top;
+}
+
+
+
+
+#index_page{
+  /* height:100vh; */
+  background:url('images/index_bg.jpg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+
+#lang{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+#logo{
+  margin-top: 50px;
+}
+
+#slogan{
+  margin-top: 50px;
+  color: #fff;
+  font-size: 33px;
+  line-height: 50px;
+}
+#slogan span#elogs{
+  color: #fcf302;
+  font-weight: bold;
+}
+
+
+
+
+#index_page input{
+    padding: 7px 0;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+#index_page input#login_btn, #index_page input#register_btn{
+    padding: 4px 0;
+    background-color: #fcf302;
+    cursor: pointer;
+    font-size: 24px;
+    color: #0066cc;
+}
+#index_page input#recovery_btn{
+    padding: 4px 0;
+    background-color: #fcf302;
+    cursor: pointer;
+    font-size: 24px;
+    color: #0066cc;
+    width: 300px;
+}
+
+
+table.login_form{
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+table.login_form td{
+  padding: 0 20px;
+  color: #fff;
+  vertical-align: middle;
+}
+table.login_form td.register_notes{
+  color: #fcf302;
+  font-size: 12px;
+}
+
+#password_recovery_link{
+  color: #fcf302;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#error_message{
+    padding: 3px 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+    border: 1px solid #fcf302;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #d22;
+}
+#ok_message{
+    padding: 3px 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+    border: 1px solid #fcf302;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #030;
+    background-color: #2d2;
+}
+
+
+#registration_link, #login_link{
+  color: #fcf302;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+#top_menu{
+  text-align: center;
+}
+#top_menu a{
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+#top_menu a:hover{
+  text-decoration: underline;
+}
+.list{
+  width: 80%;
+  margin: 50px auto;
+  padding: 50px 0;
+}
+
+
+
+
+#bottom_page{
+  padding: 30px;
+  background-color: #025;
+  text-align: center;
+  color: #ccf;
+  font-size: 14px;
+  cursor: pointer;
+}
+#contact_link{
+  text-decoration: underline;
+  color: #fcf302;
+}
+
+
+
+
